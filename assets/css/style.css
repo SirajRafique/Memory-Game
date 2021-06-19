@@ -1,19 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
 * {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
   background-color: #7d8b96;
   font-family: 'Pangolin', cursive;
 }
+
 img {
   max-width: 100%;
   user-select: none;
 }
+
 p {
   margin: 0.8rem 0;
 }
+
 .whiteboard {
   background-image: url('../images/whiteboard.jpg');
   background-size: contain;
@@ -44,4 +49,38 @@ p {
 .menu {
   text-align: center;
   transform: translate(-40%, -80%);
+}
+
+.game {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.title {
+  color: #d96c50;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+.sub-title {
+  color: #d96c50;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+.button {
+  display: block;
+  margin: 30px auto 20px;
+  font-size: 1.4rem;
+  padding: 0.3rem 1.8rem;
+  background-color: #3bbfaa;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition: all 150ms ease-in-out;
+  outline: none;
+  font-family: inherit;
+}
+.button:hover,  
+.button:focus {
+  transform: scale(1.15);
 }
