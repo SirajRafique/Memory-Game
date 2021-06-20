@@ -216,3 +216,7 @@ p {
   transform: rotateY(-180deg);
 }
 
+.matched {
+  opacity: 0;
+  pointer-events: none;
+}

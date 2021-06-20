@@ -1,4 +1,4 @@
-// set variables
+// Set variables
 
 const CARD_NAMES = ['arm', 'ear', 'eye', 'foot', 'hand', 'leg', 'mouth', 'nose'];
 
@@ -77,3 +77,105 @@ helpButton.addEventListener('click', () => {
     endOverlay.classList.add('hidden')
     startGame();
   })
+
+  // Functions
+
+  function startGame() { 
+    genarateCards();
+    
+// Resettng Cards 
+
+    CARDS.allCards = document.querySelectorAll('.card');
+    CARDS.allCards.forEach(card => {
+        card.classList.remove('visible')
+        card.classList.remove('matched')
+        card.addEventListener('click', ()=> flipCard(card))
+    });
+    CARDS.currentCardToPair = null;
+    CARDS.canFlip = true;
+    CARDS.flipped = 0;
+    CARDS.paired = 0;
+  
+// Resetting Time
+
+    TIME.currentValue = TIME.defaultValue;
+    TIME.currentTimeSpan.innerText = TIME.currentValue;
+    
+    if(gameTick) clearInterval(gameTick);
+  
+    gameTick = setInterval(() => {    
+        TIME.currentValue--;
+        TIME.currentTimeSpan.innerText  = TIME.currentValue
+        if(CARD_NAMES.length === CARDS.paired){
+          clearInterval(gameTick);
+          endOverlay.classList.remove('hidden')
+          modalTitle.innerText = `Congratulations! You finished with ${TIME.currentValue} seconds remaining`;
+          modalButton.innerText = 'Play again';
+        }
+        if(TIME.currentValue === 0) {
+          clearInterval(gameTick);
+          endOverlay.classList.remove('hidden')
+          modalTitle.innerText = 'You ran out of time!';
+          modalButton.innerText = 'Try again?';
+        }
+    }, 1000);  
+  
+// Resetting Flips 
+
+    FLIPS.count = 0;
+    FLIPS.flipCountSpan.innerText  = 0;
+  }
+  
+  function flipCard(card){
+      if(!cardCanBeFlipped(card)) return;
+  
+      FLIPS.flipCountSpan.innerText =  ++FLIPS.count;
+  
+      card.classList.add('visible') 
+      if(CARDS.currentCardToPair) 
+          checkForMatch(CARDS.currentCardToPair, card)
+      else  
+          CARDS.currentCardToPair = card 
+  }
+  
+  function cardCanBeFlipped(card){
+      return !card.classList.contains('visible') && !card.classList.contains('matched') && CARDS.canFlip;
+  }
+  
+  function checkForMatch(card1, card2){
+      CARDS.canFlip = false;
+      setTimeout(()=> { 
+          if(card1.dataset.id === card2.dataset.id){ 
+              card1.classList.add('matched')
+              card2.classList.add('matched')   
+              CARDS.paired++;
+          } else {
+              card1.classList.remove('visible')
+              card2.classList.remove('visible') 
+          } 
+          CARDS.canFlip = true;
+      }, 1000)
+      CARDS.currentCardToPair = null;
+  }
+  
+  function genarateCards(){
+      const cardHTMLArray = [];
+  
+      CARD_NAMES.forEach((name, index) => {
+        const imageCardHTML = `
+          <div class="card" data-id="${index}">
+            <div class="front-face face"><img src="assets/images/${name}.jpg"></div> 
+            <div class="back-face face"><img src="assets/images/back.jpg"></div> 
+          </div>`;
+        const textCardHTML = `
+          <div class="card" data-id="${index}">
+            <div class="front-face face"><img src="assets/images/white.jpg"><span class="card-text">${name}</span></div> 
+            <div class="back-face face"><img src="assets/images/back.jpg"></div> 
+          </div>`;
+  
+        cardHTMLArray.push(imageCardHTML, textCardHTML);
+      });
+      cardHTMLArray.sort((a, b) => 0.5 - Math.random());
+      document.querySelector('[data-grid]').innerHTML = cardHTMLArray.join('');
+  }
+  
