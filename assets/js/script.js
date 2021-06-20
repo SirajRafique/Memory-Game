@@ -48,3 +48,32 @@ startButton.addEventListener('click', () => {
     whiteBoard.classList.add('blur')
     startGame()
 });
+
+helpButton.addEventListener('click', () => {
+    helpOverlay.classList.remove('hidden')
+  })
+  
+  helpOverlay.addEventListener('click', e => {
+    if(!e.target.classList.contains('overlay')) return;
+    helpOverlay.classList.add('hidden');
+  })
+  
+  closeButton.addEventListener('click',() => {
+    helpOverlay.classList.add('hidden')
+  })
+  
+  homeButtons.forEach(homeButton => {
+    homeButton.addEventListener('click', () => {
+      endOverlay.classList.add('hidden');
+      whiteBoard.classList.remove('blur');
+      menuPage.classList.remove('hidden');
+      gamePage.classList.add('hidden');
+      clearInterval(gameTick);
+    })
+  })
+  
+  restartButton.addEventListener('click', startGame)
+  modalButton.addEventListener('click', () => {
+    endOverlay.classList.add('hidden')
+    startGame();
+  })
