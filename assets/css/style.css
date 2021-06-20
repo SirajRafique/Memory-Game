@@ -40,6 +40,11 @@ p {
   }
 }
 
+.blur {
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+}
+
 /* text on main page with start and help buttons */
 
 .container {
@@ -158,3 +163,4 @@ p {
 .hidden {
   display: none;
 }
+
