@@ -98,3 +98,12 @@ p {
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 10;
 }
+
+.modal {
+  width: 95%;
+  max-width: 400px;
+  background: white;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 1.1rem 1.2rem 0.8rem;
+  text-align: center;
+}
