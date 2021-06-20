@@ -19,6 +19,8 @@ p {
   margin: 0.8rem 0;
 }
 
+/* background image */
+
 .whiteboard {
   background-image: url('../images/whiteboard.jpg');
   background-size: contain;
@@ -37,6 +39,8 @@ p {
     background-size: cover;
   }
 }
+
+/* text on main page with start and help buttons */
 
 .container {
   position: absolute;
@@ -57,16 +61,19 @@ p {
   align-items: center;
   flex-direction: column;
 }
+
 .title {
   color: #d96c50;
   font-weight: 700;
   font-size: 2.5rem;
 }
+
 .sub-title {
   color: #d96c50;
   font-weight: 400;
   font-size: 1.5rem;
 }
+
 .button {
   display: block;
   margin: 30px auto 20px;
@@ -85,6 +92,8 @@ p {
 .button:focus {
   transform: scale(1.15);
 }
+
+/* overlay & modal */
 
 .overlay {
   display: flex;
@@ -107,3 +116,26 @@ p {
   padding: 1.1rem 1.2rem 0.8rem;
   text-align: center;
 }
+
+.icon img {
+  cursor: pointer;
+  width: 35px;
+  transition: transform 0.15s;
+}
+
+.game-status .icon {
+  display: grid;
+  place-items: center;
+}
+
+.game-status img:hover {
+  transform: scale(1.1);
+}
+
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  grid-template-rows: repeat(4, 100px);
+  grid-gap: 15px;
+}
+
