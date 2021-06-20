@@ -155,3 +155,6 @@ p {
   grid-gap: 15px;
 }
 
+.hidden {
+  display: none;
+}

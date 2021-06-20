@@ -40,3 +40,11 @@ const CARDS = {
     currentTimeSpan: document.querySelector('[data-timer]')        
   };
   
+// Event listeners
+
+startButton.addEventListener('click', () => {
+    menuPage.classList.add('hidden');
+    gamePage.classList.remove('hidden');
+    whiteBoard.classList.add('blur')
+    startGame()
+});
