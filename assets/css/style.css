@@ -164,3 +164,55 @@ p {
   display: none;
 }
 
+/* cards front and back */
+
+.card {
+  cursor: pointer;
+  position: relative;
+  border-radius: 10px;
+  transition: opacity 300ms ease-in-out;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.card-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.6rem;
+}
+
+.face {
+  box-shadow: 0 0 0 1px black;  
+  border-radius: 10px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.front-face {
+  transform: rotateY(180deg);
+  transition: transform 500ms ease-in-out;
+}
+
+.back-face {
+  transform: rotateY(0deg);
+  transition: transform 500ms ease-in-out;
+}
+
+.card.visible .front-face {
+  transform: rotateY(0);
+}
+
+.card.visible .back-face {
+  transform: rotateY(-180deg);
+}
+
