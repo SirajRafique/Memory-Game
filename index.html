@@ -13,6 +13,26 @@
     <title>Memory Game</title>
 </head>
 <body>
+
+  <div class="overlay hidden" data-overlay="help">
+    <div class="modal">
+      <p>Click on a card and then find it's match.</p>
+      <p>Match the words with the pictures.</p>
+      <p>You have 1 minute to complete the game.</p>
+      <button class="button" data-button="close">Close</button>
+    </div>
+  </div>
+
+  <div class="overlay hidden" data-overlay="end">
+    <div class="modal">
+      <div class="icon"><img src="assets/images/home-black.svg" alt="" data-button="home"></div>
+      <h2 data-modal-title>Well played!</h2>
+      <button class="button" data-modal-button>Play Again</button>
+    </div>
+  </div>
+  
+  <div class="whiteboard" data-whiteboard></div>
+
     <div class="container menu" data-page="menu">
         <h1 class="title">Body parts</h1>
         <p class="sub-title">Test your memory</p>
@@ -29,26 +49,6 @@
         </div>      
         <div class="game-grid" data-grid></div>
       </div>
-
-      <div class="overlay hidden" data-overlay="help">
-        <div class="modal">
-          <p>Click on a card and then find it's match.</p>
-          <p>Match the words with the pictures.</p>
-          <p>You have 1 minute to complete the game.</p>
-          <button class="button" data-button="close">Close</button>
-        </div>
-      </div>
-
-      <div class="overlay hidden" data-overlay="end">
-        <div class="modal">
-          <div class="icon"><img src="assets/images/home-black.svg" alt="" data-button="home"></div>
-          <h2 data-modal-title>Well played!</h2>
-          <button class="button" data-modal-button>Play Again</button>
-        </div>
-      </div>
-  
-      <div class="whiteboard" data-whiteboard></div>
-
 
     <script src="assets/js/script.js"></script>
 </body>
