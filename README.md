@@ -76,7 +76,7 @@ They can choose the difficulty level
 
 ![image](https://user-images.githubusercontent.com/80712910/123252284-06ffee00-d4e4-11eb-8c10-750d21a8db24.png)
 
-Detailed instructions on how to play
+Detailed instructions on how to play with illustrations
 
 ![image](https://user-images.githubusercontent.com/80712910/123252311-0cf5cf00-d4e4-11eb-91b9-779e90ab3f4f.png)
 
@@ -84,7 +84,7 @@ Feedback form if they want to leave a message
 
 ![image](https://user-images.githubusercontent.com/80712910/123252340-141cdd00-d4e4-11eb-9353-1b27cb0018f9.png)
 
-**Mobile version:**
+**Mobile version:** 
 
 
 <a name="features"></a>
