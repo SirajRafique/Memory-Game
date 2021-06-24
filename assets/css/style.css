@@ -220,3 +220,55 @@ p {
   opacity: 0;
   pointer-events: none;
 }
+
+/* Media queries */
+
+@media (max-width: 900px) {
+  .game-grid {
+    grid-template-columns: repeat(4, 180px);
+    grid-template-rows: repeat(4, 90px);
+    grid-gap: 10px;
+  }
+}
+
+@media (max-width: 780px) {
+  .game-grid {
+    grid-template-columns: repeat(4, 160px);
+    grid-template-rows: repeat(4, 80px);
+  }
+}
+
+@media (max-width: 700px) {
+  .game-grid {
+    grid-template-columns: repeat(3, 180px);
+    grid-template-rows: repeat(6, 90px);
+  }
+}
+
+@media (max-width: 590px) {
+  .game-grid {
+    grid-template-columns: repeat(3, 160px);
+    grid-template-rows: repeat(6, 80px);
+  }
+}
+
+@media (max-width: 530px) {
+  .game-grid {
+    grid-template-columns: repeat(3, 140px);
+    grid-template-rows: repeat(6, 70px);
+  }
+}
+
+@media (max-width: 460px) {
+  .game-grid {
+    grid-template-columns: repeat(2, 160px);
+    grid-template-rows: repeat(8, 80px);
+  }
+}
+
+@media (max-width: 360px) {
+  .game-grid {
+    grid-template-columns: repeat(2, 140px);
+    grid-template-rows: repeat(8, 70px);
+  }
+}
