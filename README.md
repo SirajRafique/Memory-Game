@@ -58,9 +58,17 @@ The game has been made desirable and responsive for all device sizes; giving the
 
 Wireframes created as part of the design process 
 
-![Wireframe 1](https://user-images.githubusercontent.com/80712910/122408271-247c0780-cf7a-11eb-9ddb-e9848fb7e670.PNG)
+![image](https://user-images.githubusercontent.com/80712910/123252202-ee8fd380-d4e3-11eb-8a5b-5334218045ed.png)
 
-![wireframe 2](https://user-images.githubusercontent.com/80712910/122408369-3cec2200-cf7a-11eb-8ce2-563f17a7505e.PNG)
+![image](https://user-images.githubusercontent.com/80712910/123252232-f5b6e180-d4e3-11eb-8287-bf3ce7274d2e.png)
+
+![image](https://user-images.githubusercontent.com/80712910/123252256-fe0f1c80-d4e3-11eb-80d4-d3854c3bf3c1.png)
+
+![image](https://user-images.githubusercontent.com/80712910/123252284-06ffee00-d4e4-11eb-8c10-750d21a8db24.png)
+
+![image](https://user-images.githubusercontent.com/80712910/123252311-0cf5cf00-d4e4-11eb-91b9-779e90ab3f4f.png)
+
+![image](https://user-images.githubusercontent.com/80712910/123252340-141cdd00-d4e4-11eb-9353-1b27cb0018f9.png)
 
 
 <a name="features"></a>
