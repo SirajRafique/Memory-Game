@@ -58,17 +58,33 @@ The game has been made desirable and responsive for all device sizes; giving the
 
 Wireframes created as part of the design process 
 
+**Desktop version:**
+
+How the Home Page will look 
+
 ![image](https://user-images.githubusercontent.com/80712910/123252202-ee8fd380-d4e3-11eb-8a5b-5334218045ed.png)
+
+How the game will look  
 
 ![image](https://user-images.githubusercontent.com/80712910/123252232-f5b6e180-d4e3-11eb-8287-bf3ce7274d2e.png)
 
+What they see when they run out of time or don't complete the game
+
 ![image](https://user-images.githubusercontent.com/80712910/123252256-fe0f1c80-d4e3-11eb-80d4-d3854c3bf3c1.png)
+
+They can choose the difficulty level
 
 ![image](https://user-images.githubusercontent.com/80712910/123252284-06ffee00-d4e4-11eb-8c10-750d21a8db24.png)
 
+Detailed instructions on how to play
+
 ![image](https://user-images.githubusercontent.com/80712910/123252311-0cf5cf00-d4e4-11eb-91b9-779e90ab3f4f.png)
 
+Feedback form if they want to leave a message
+
 ![image](https://user-images.githubusercontent.com/80712910/123252340-141cdd00-d4e4-11eb-9353-1b27cb0018f9.png)
+
+**Mobile version:**
 
 
 <a name="features"></a>
