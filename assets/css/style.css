@@ -120,6 +120,11 @@ p {
   border: 1px solid rgb(0, 0, 0);
   padding: 1.1rem 1.2rem 0.8rem;
   text-align: center;
+  position: relative;
+}
+
+.help-modal {
+  max-width: 700px;
 }
 
 .game-status {
@@ -136,6 +141,12 @@ p {
   border-radius: 10px;
   color: white;
   white-space: nowrap;
+}
+
+@media (max-width: 500px) {
+  .game-status {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 .icon img {
@@ -219,6 +230,52 @@ p {
 .matched {
   opacity: 0;
   pointer-events: none;
+}
+
+/* Feedback Form */
+
+.feedback-form {
+  text-align: left;
+  padding: 0.5rem;
+}
+.form-label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  border: 2px solid black;
+  padding: 3px 5px;
+}
+.form-input {
+  width: 100%;
+  display: block;
+  margin-bottom: 1.5rem;
+  border: 2px solid black;
+  padding: 0.3rem 0.5rem;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.close::after,
+.close::before {
+  position: absolute;
+  content: '';
+  width: 35px;
+  background-color: black;
+  height: 5px;
+  left: 0;
+  top: 50%;
+
+}
+.close::after {
+  transform: rotate(-45deg);
+}
+.close::before {
+  transform: rotate(45deg);
 }
 
 /* Media queries */
