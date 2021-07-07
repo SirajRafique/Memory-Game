@@ -123,7 +123,7 @@ CARDS.canFlip = true;
 CARDS.flipped = 0;
 CARDS.paired = 0;
   
-// Resetting Time
+// Resetting time
 
 TIME.currentValue = TIME.defaultValue;
 TIME.currentTimeSpan.innerText = TIME.currentValue;
@@ -149,12 +149,12 @@ gameTick = setInterval(() => {
     }
 }, 1000);
   
-  //RESETTING FLIPS
+  //Resetting flips
 
   FLIPS.count = 0;
   FLIPS.flipCountSpan.innerText  = 0;
 
-  // TOGGLE SOCIAL LINKS VISIBILITY
+  // Toggle social media links visibility when cards pop up
 
   socialLinks.classList.add('hidden')
 }
@@ -175,6 +175,8 @@ function cardCanBeFlipped(card){
     return !card.classList.contains('visible') && !card.classList.contains('matched') && CARDS.canFlip;
 }
 
+// Checking if and when cards match 
+
 function checkForMatch(card1, card2){
     CARDS.canFlip = false;
     setTimeout(()=> { 
@@ -190,6 +192,8 @@ function checkForMatch(card1, card2){
     }, 1000)
     CARDS.currentCardToPair = null;
 }
+
+// The appearance of the cards
   
   function genarateCards(){
     const cardHTMLArray = [];
