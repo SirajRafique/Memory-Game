@@ -30,6 +30,32 @@
       <button class="button" data-modal-button>Play Again</button>
     </div>
   </div>
+
+  <div class="overlay hidden" data-overlay="level">
+    <div class="modal">
+      <h2>Choose your difficulty level</h2>
+      <button class="button" data-level="90">Easy</button>
+      <button class="button" data-level="60">Medium</button>
+      <button class="button" data-level="45">Hard</button>
+    </div>
+  </div>
+
+  <div class="overlay hidden" data-overlay="feedback">
+    <div class="modal">
+      <div class="close" data-close></div>
+      <h2>Feedback Form</h2>
+      <form class="feedback-form" action="./404.html" method="">
+        <label class="form-label" for="name">Name:</label>
+        <input class="form-input" type="text" name="name" id="name">
+        <label class="form-label" for="email">Email:</label>
+        <input class="form-input" type="email" name="email" id="email">
+        <label class="form-label" for="message">Message:</label>
+        <textarea class="form-input" name="message" id="message" cols="30" rows="10"></textarea>
+        
+        <button class="button" type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
   
   <div class="whiteboard" data-whiteboard></div>
 
