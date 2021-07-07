@@ -191,13 +191,13 @@ function checkForMatch(card1, card2){
     CARD_NAMES.forEach((name, index) => {
       const imageCardHTML = `
         <div class="card" data-id="${index}">
-          <div class="front-face face"><img src="img/${name}.jpg"></div> 
-          <div class="back-face face"><img src="img/back.jpg"></div> 
+          <div class="front-face face"><img src="assets/images/${name}.jpg"></div> 
+          <div class="back-face face"><img src="assets/images/back.jpg"></div> 
         </div>`;
       const textCardHTML = `
         <div class="card" data-id="${index}">
-          <div class="front-face face"><img src="img/white.jpg"><span class="card-text">${name}</span></div> 
-          <div class="back-face face"><img src="img/back.jpg"></div> 
+          <div class="front-face face"><img src="assets/images/white.jpg"><span class="card-text">${name}</span></div> 
+          <div class="back-face face"><img src="assets/images/back.jpg"></div> 
         </div>`;
 
       cardHTMLArray.push(imageCardHTML, textCardHTML);
