@@ -1,23 +1,20 @@
 # Memory Game - Body Parts
 --------------------------
 
-
 ## Introduction 
 
-Welcome to my second project (MS2). This is a memory game for learning the body parts in English aimed at children or elementary level learners.  
+Welcome to my second project (MS2). This is a game that tests your memory while also learning the body parts in English. It is designed for children or elementary level learners.  
 
 The primary goal of the website is for users to learn and/or practice their english in the form of a game. 
 
-There are 8 pictures and 8 cards. The user needs to match the pairs inside a minute to complete the game. 
+There are 8 pictures and 8 cards. The user needs to select a difficulty level and then match the pairs within the time limit set to complete the game. 
 
 You can view the deployed game [here](https://sirajrafique.github.io/Memory-Game/)
 
 ![image](https://user-images.githubusercontent.com/80712910/124814255-af3e9980-df5d-11eb-8c29-5e9cb55bf4ca.png)
 
-
 ## Table of Contents
 -----------------------------------------------------------------
-
 * [1. UX](#UX) 
     * [1.1 Client Stories](#clientstories) 
     * [1.2 Mock Up](#mockup) 
