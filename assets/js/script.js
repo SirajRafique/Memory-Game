@@ -79,7 +79,6 @@ helpOverlay.addEventListener('click', e => {
   helpOverlay.classList.add('hidden');
 })
 
-
 formClose.addEventListener('click', () => {
   feedbackOverlay.classList.add('hidden');
 })
@@ -97,6 +96,13 @@ homeButtons.forEach(homeButton => {
     socialLinks.classList.remove('hidden');
     clearInterval(gameTick);
   })
+})
+
+restartButton.addEventListener('click', startGame)
+
+modalButton.addEventListener('click', () => {
+  endOverlay.classList.add('hidden')
+  startGame();
 })
 
 // Functions
