@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="A memory game to test your knowledge of body parts" name="description">
-	<meta content="memory, game, bodyparts, learn, english" name="keywords">
+	  <meta content="memory, game, bodyparts, learn, english" name="keywords">
 	
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="shortcut icon" href="assets/images/back.jpg" type="image/x-icon">
@@ -15,10 +15,8 @@
 <body>
 
   <div class="overlay hidden" data-overlay="help">
-    <div class="modal">
-      <p>Click on a card and then find it's match.</p>
-      <p>Match the words with the pictures.</p>
-      <p>You have 1 minute to complete the game.</p>
+    <div class="modal help-modal">
+      <img class="help-img" src="./assets/images/help.png" alt="">
       <button class="button" data-button="close">Close</button>
     </div>
   </div>
@@ -64,6 +62,7 @@
         <p class="sub-title">Test your memory</p>
         <button class="button" data-button="start">Start</button>
         <button class="button" data-button="help">Help</button>
+        <button class="button" data-button="feedback">Feedback</button>
       </div>
 
       <div class="container game hidden" data-page="game">
