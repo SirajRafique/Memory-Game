@@ -25,7 +25,6 @@ You can view the deployed game [here](https://sirajrafique.github.io/Memory-Game
 * [6. Deployment](#deployment) 
 * [7. End Product](#endproduct)
 * [8. Credits](#credits) 
-
 <a name="UX"></a>  
 **1. UX**
 ---------
@@ -90,3 +89,52 @@ Feedback form if they want to leave a message
 <a name="features"></a>
 **2. Features**
 ------------
+
+
+
+
+
+
+<a name="technologyused"></a>
+**3. Technologies Used**
+---------------------
+
+[*GO TO THE TOP*](#UX) <a name="UX"></a>
+
+* HTML5
+* CSS3 
+* Javascript 
+* [Google Fonts](https://fonts.google.com/) 
+    * Used to style the fonts 
+* [FontAwesome](https://fontawesome.com/)
+    * Used for all the icons
+* [Balsamiq](https://balsamiq.com/)
+    * Used to create the wireframes during the design process.
+* GitHub
+    * Used for reviewing the README, adding extra files and for storing the code after being pushed from Gitpod.
+
+
+    <a name="credits"></a>
+**8. Credits** 
+-----------
+
+[*GO TO THE TOP*](#UX) <a name="UX"></a>
+
+**Content** 
+
+* The background Image  taken from [PixaBay](https://pixabay.com/illustrations/school-classroom-interior-board-4560861/) 
+
+* The pictures of the body parts were taken from [freepik](https://www.freepik.com/premium-vector/human-body-parts-collection-set_3895527.htm#page=1), 
+
+**Code**
+
+* Colors for the courses taken from [W3Schools](https://www.w3schools.com/colors/colors_picker.asp)
+
+* addEventListener() method taken from [W3Schools](https://www.w3schools.com/js/js_htmldom_eventlistener.asp)
+
+* Overlay effect taken from [W3Schools](https://www.w3schools.com/howto/howto_css_overlay.asp)
+
+* Text for Deployment section in README taken from README template and then edited/personalised.
+
+* The code for the flip card feature was taken from my last project and adpated. 
+
