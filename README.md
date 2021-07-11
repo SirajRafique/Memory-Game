@@ -158,7 +158,7 @@ If you run out of time a box appears asking if you want to try again? or you can
 
 [*GO TO THE TOP*](#UX) <a name="UX"></a>
 
-Testing Information can be found here [Testing.md]()
+Testing Information can be found here [Testing.md](https://github.com/SirajRafique/Memory-Game/blob/master/testing.md)
 
 Including manual and client stories testing. 
 
