@@ -94,6 +94,7 @@ Feedback form if they want to leave a message
 <a name="features"></a>
 **2. Features**
 ------------
+[*GO TO THE TOP*](#UX) <a name="UX"></a>
 
 **Home Page:**
 
@@ -115,7 +116,7 @@ The difference in levels are explained in the 'help' section.
 Each of the buttons have a hover effect when you run the mouse over it, telling the user what they are about to select. 
 
 
-**The Game**
+**The Game:**
 
 When the game loads the background image is blurred to create focus and the user is presented with 16 blue squares. 
 
