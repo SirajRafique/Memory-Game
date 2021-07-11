@@ -137,6 +137,15 @@ If you run out of time a box appears asking if you want to try again? or you can
 * [GitHub](https://github.com/SirajRafique/Memory-Game)
     * Used for reviewing the README, adding extra files and for storing the code after being pushed from Gitpod.
 
+<a name="testing"></a> 
+**4. Testing**
+---------------------------------
+
+[*GO TO THE TOP*](#UX) <a name="UX"></a>
+
+Testing Information can be found here [Testing.md]()
+
+Including manual and client stories testing. 
 
 <a name="deployment"></a>
 **6. Deployment** 
