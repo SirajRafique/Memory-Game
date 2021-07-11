@@ -5,7 +5,7 @@
 
 Welcome to my second project (MS2). This is a game that tests your memory while also learning the body parts in English. It is designed for children or elementary level learners.  
 
-The primary goal of the website is for users to learn and/or practice their english in the form of a game. 
+The primary goal of the website is for users to learn and/or practice their English in the form of a game. 
 
 There are 8 pictures and 8 cards. The user needs to select a difficulty level and then match the pairs within the time limit set to complete the game. 
 
@@ -25,6 +25,8 @@ You can view the deployed game [here](https://sirajrafique.github.io/Memory-Game
 * [6. Deployment](#deployment) 
 * [7. End Product](#endproduct)
 * [8. Credits](#credits) 
+
+
 <a name="UX"></a>  
 **1. UX**
 ---------
@@ -47,10 +49,11 @@ The game has been made desirable and responsive for all device sizes; giving the
 5. As a visitor, I want to be able to find it challanging. 
 6. As a visitor, I want to be able to see the countdown and number of flips I've made. 
 7. As a visitor, I want to be able to quickly restart the game and or return to the homepage.
+8. As a visitor, I want to be able to leave some feedback or ask questions. 
 
-8. As a developer, I want the cards to shuffle everytime the user starts a new game.
-9. As a developer, I want to highlight the time the user has left. 
-10. As a developer, I want the user to see a congratulations or game over message.  
+9. As a developer, I want the cards to shuffle everytime the user starts a new game.
+10. As a developer, I want to highlight the time the user has left. 
+11. As a developer, I want the user to see a congratulations or game over message.  
 
 <a name="mockup"></a>
 **1.2 Mock up:**
@@ -110,7 +113,7 @@ Feedback form if they want to leave a message
     * Used for all the icons
 * [Balsamiq](https://balsamiq.com/)
     * Used to create the wireframes during the design process.
-* GitHub
+* [GitHub](https://github.com/SirajRafique/Memory-Game)
     * Used for reviewing the README, adding extra files and for storing the code after being pushed from Gitpod.
 
 
