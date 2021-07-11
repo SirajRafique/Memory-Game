@@ -95,10 +95,29 @@ Feedback form if they want to leave a message
 **2. Features**
 ------------
 
+**Home Page:**
+
+When the page loads you are presented with a background image of a whiteboard, books and a globe to give it that school effect; after all it is an English learning/memory game. 
+Instantly you know what the topic is - Body parts. On the top right hand corner there are some links to the sociak media accounts. 
+The user sees three buttons, Start/Help/Feedback.
+
+When the user selects help an window pops up with detailed illustrations of how to play the game. 
+
+The feedback button brings up a form where they can leave a message. 
+
+When the user clicks start, a window pops up asking them to choose a difficulty level. The difference in levels are explained in the 'help' section. 
+
+Each of the buttons have a hover effect when the user runs the mouse over it - telling them what they are about to select. 
 
 
+**The Game**
 
-
+When the game loads the background image is blurred to create focus and the user is presented with 16 blue squares. 
+Above the squares they have a home icon where they can revert back to the home page at anytime. 
+There is also a timer, highlighting how much time is remaining. 
+Flips tell you how many times you flipped a card. The lower the number the better. 
+On the top right of the squares there is a refresh button - where you can reshuffle the cards or simply start again. 
+If you run out of time a box appears asking if you want to try again? or you can click the home button and return to the homepage. 
 
 <a name="technologyused"></a>
 **3. Technologies Used**
