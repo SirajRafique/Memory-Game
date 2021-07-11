@@ -16,3 +16,17 @@ Mobile Performance
 **2. JSHint**
 
 JavaScript code passes through Jshint with no significant issues.
+
+![image](https://user-images.githubusercontent.com/80712910/125197798-faef8c80-e256-11eb-8a37-94fdd28010b9.png)
+
+**3. W3C Validator** 
+
+No errors or warnings to show
+
+![image](https://user-images.githubusercontent.com/80712910/125197609-40f82080-e256-11eb-808c-bede73a35e23.png)
+
+**4. Jigsaw Validator**
+
+CSS code passed through the official (Jigsaw) validator with no issues
+
+![image](https://user-images.githubusercontent.com/80712910/125197923-95e86680-e257-11eb-92ab-cf6ff39f64e9.png)
