@@ -146,7 +146,9 @@ If you run out of time a box appears asking if you want to try again? or you can
 * [Google Fonts](https://fonts.google.com/) 
     * Used to style the fonts 
 * [FontAwesome](https://fontawesome.com/)
-    * Used for all the icons
+    * Used for the icons
+* [Flaticon](https://www.flaticon.com/)
+    * Used for the social media links
 * [Balsamiq](https://balsamiq.com/)
     * Used to create the wireframes during the design process.
 * [GitHub](https://github.com/SirajRafique/Memory-Game)
@@ -222,9 +224,7 @@ The help section
 
 The feedback form 
 
-
 ![image](https://user-images.githubusercontent.com/80712910/125198911-c6ca9a80-e25b-11eb-815e-c10acfa7a1b0.png)
-
 
 
 
