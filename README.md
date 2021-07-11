@@ -102,6 +102,8 @@ When the page loads you are presented with a background image of a whiteboard, b
 This was chosen to give it a school effect; after all it is an English learning/memory game. 
 The user Instantly knows what the topic is - Body parts. 
 
+The graphics are consistent in style and colour.
+
 On the top right hand corner there are some links to the social media accounts. 
 
 In the middle of the page, the user sees three buttons, Start/Help/Feedback.
@@ -119,6 +121,8 @@ Each of the buttons have a hover effect when you run the mouse over it, telling 
 **The Game:**
 
 When the game loads the background image is blurred to create focus and the user is presented with 16 blue squares. 
+
+The foreground is never distracted by the background. 
 
 Above the squares they have a home icon where they can revert back to the home page at anytime. 
 
