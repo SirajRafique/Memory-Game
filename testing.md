@@ -30,3 +30,8 @@ No errors or warnings to show
 CSS code passed through the official (Jigsaw) validator with no issues
 
 ![image](https://user-images.githubusercontent.com/80712910/125197923-95e86680-e257-11eb-92ab-cf6ff39f64e9.png)
+
+
+## Manual Testing 
+-----------------------------------------------------------
+
