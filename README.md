@@ -64,7 +64,7 @@ Wireframes created as part of the design process
 
 How the Home Page will look 
 
-![image](https://user-images.githubusercontent.com/80712910/123252202-ee8fd380-d4e3-11eb-8a5b-5334218045ed.png)
+![image](https://user-images.githubusercontent.com/80712910/125191538-deddf200-e23a-11eb-933d-ec5339f4cb58.png)
 
 How the game will look  
 
@@ -87,6 +87,8 @@ Feedback form if they want to leave a message
 ![image](https://user-images.githubusercontent.com/80712910/123252340-141cdd00-d4e4-11eb-9353-1b27cb0018f9.png)
 
 **Mobile version:** 
+
+![image](https://user-images.githubusercontent.com/80712910/125191682-92df7d00-e23b-11eb-85bc-026cc1ea8305.png)
 
 
 <a name="features"></a>
