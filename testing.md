@@ -13,3 +13,6 @@ Mobile Performance
 
 ![image](https://user-images.githubusercontent.com/80712910/125196006-199e5500-e250-11eb-873f-871b43f3f303.png)
 
+**2. JSHint**
+
+JavaScript code passes through Jshint with no significant issues.
