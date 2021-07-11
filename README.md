@@ -204,6 +204,29 @@ How to run this project locally and to clone the project into Gitpod:
 
 [*GO TO THE TOP*](#UX) <a name="UX"></a>
 
+Homepage
+
+![image](https://user-images.githubusercontent.com/80712910/125198812-5face600-e25b-11eb-9fa4-5082e58e4101.png)
+
+The different levels the user can choose from when they click start
+
+![image](https://user-images.githubusercontent.com/80712910/125198825-718e8900-e25b-11eb-8716-04d929595968.png)
+
+The Game
+
+![image](https://user-images.githubusercontent.com/80712910/125198858-984cbf80-e25b-11eb-9c09-1d0a09fa2bc7.png)
+
+The help section 
+
+![image](https://user-images.githubusercontent.com/80712910/125198883-b1557080-e25b-11eb-823a-1afd2eb7f582.png)
+
+The feedback form 
+
+
+![image](https://user-images.githubusercontent.com/80712910/125198911-c6ca9a80-e25b-11eb-815e-c10acfa7a1b0.png)
+
+
+
 
 <a name="credits"></a>
 **8. Credits** 
