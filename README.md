@@ -162,6 +162,16 @@ Testing Information can be found here [Testing.md]()
 
 Including manual and client stories testing. 
 
+<a name="bugsdiscovered"></a>
+**5. Bugs Discovered** 
+--------------------------------
+
+Semicolons missing - identfied when code was run through validator. Issue was fixed. 
+
+Form was not opening up in a new window and was not linked to the 404 error page. Issue fixed. 
+
+Background image was visible when game was loaded. Fixed issue using blue feature. 
+
 <a name="deployment"></a>
 **6. Deployment** 
 --------------
@@ -188,12 +198,14 @@ How to run this project locally and to clone the project into Gitpod:
 8.	This will trigger a new Gitpod workspace to be created from the code where you can work locally
 
 
+<a name="endproduct"></a>
+**7. End Product** 
+-----------
+
+[*GO TO THE TOP*](#UX) <a name="UX"></a>
 
 
-
-
-
-    <a name="credits"></a>
+<a name="credits"></a>
 **8. Credits** 
 -----------
 
