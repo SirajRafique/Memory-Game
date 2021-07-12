@@ -69,3 +69,56 @@ CSS code passed through the official (Jigsaw) validator with no issues
 ### Checking my user stories
 -------------------------------------------------------------------------------
 
+1. As a visitor to the site, I want to be able to navigate with ease.
+
+- The homepage of the game has been kept simple - three buttons start / help / feedback 
+
+![image](https://user-images.githubusercontent.com/80712910/125301662-1922be80-e323-11eb-920b-9bd094b85327.png)
+
+2. As a visitor, I want to be able to find out how to play the game. 
+
+- User can select help and detailed instructions will be displayed. 
+
+![image](https://user-images.githubusercontent.com/80712910/125302058-82a2cd00-e323-11eb-9d87-95a517e317d1.png)
+
+3. As a visitor, I want to be able to start the game with ease. 
+
+- User can select start and play the game 
+
+4. As a visitor, I want to be able to play a game that is meaningful and interactive.
+
+- User is learning the body parts in English through words and pictures. 
+
+5. As a visitor, I want to be able to find it challanging. 
+
+- The game has three different levels. 
+
+6. As a visitor, I want to be able to see the countdown and number of flips I've made. 
+
+![image](https://user-images.githubusercontent.com/80712910/125304642-a9fa9980-e325-11eb-91d8-cd3484863496.png)
+
+7. As a visitor, I want to be able to quickly restart the game and or return to the homepage.
+
+- See top right hand corner
+
+![image](https://user-images.githubusercontent.com/80712910/125304642-a9fa9980-e325-11eb-91d8-cd3484863496.png)
+
+8. As a visitor, I want to be able to leave some feedback or ask questions. 
+
+- User can leave feedback through the feedback form
+
+9. As a developer, I want the cards to shuffle everytime the user starts a new game.
+
+- User is able to do this
+
+10. As a developer, I want to highlight the time the user has left. 
+
+![image](https://user-images.githubusercontent.com/80712910/125304642-a9fa9980-e325-11eb-91d8-cd3484863496.png)
+
+11. As a developer, I want the user to see a congratulations or game over message.  
+
+![image](https://user-images.githubusercontent.com/80712910/125305180-0fe72100-e326-11eb-81f9-6439b6aaa59f.png)
+
+![image](https://user-images.githubusercontent.com/80712910/125305418-3c02a200-e326-11eb-800a-1ac0f344ee66.png)
+
+
